@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"  
+             x:Class="CircularGauge_Sample.MainPage">
+
+    <gauge:SfCircularGauge  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="10">
+        <gauge:SfCircularGauge.Headers>
+            <gauge:Header Text="Speedometer" ForegroundColor="Black" TextSize="20"/>
+        </gauge:SfCircularGauge.Headers>
+
+        <gauge:SfCircularGauge.Scales>
+
+            <gauge:Scale>
+
+                <gauge:Scale.Ranges>
+                    <gauge:Range StartValue="0" EndValue="40"/>
+                </gauge:Scale.Ranges>
+
+                <gauge:Scale.Pointers>
+                    <gauge:NeedlePointer  Value="60" />
+                    <gauge:RangePointer Value="60" />
+                    <gauge:MarkerPointer Value="70" />
+                </gauge:Scale.Pointers>
+
+            </gauge:Scale>
+
+        </gauge:SfCircularGauge.Scales>
+
+    </gauge:SfCircularGauge>
+</ContentPage>
