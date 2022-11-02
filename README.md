@@ -1,6 +1,6 @@
 # Getting Started Xamarin Circular Gauge
 
-This repository contains sample for how to get started with the [Syncfusion Xamarin.Forms Circular Gauge](https://help.syncfusion.com/xamarin/circular-gauge/getting-started) control. The Circular Gauge helps you to visualize the numeric values over a circular scale.
+This repository contains sample to get started with the [Syncfusion Xamarin.Forms Circular Gauge](https://help.syncfusion.com/xamarin/circular-gauge/getting-started) control. The Circular Gauge helps you to visualize the numeric values over a circular scale.
 
 ## Syncfusion controls:
 
